@@ -1,0 +1,7 @@
+{
+    "categories": ["abstract", "animals", "city", "food", "nightlife", "fashion",
+                "people", "nature", "sports", "technics", "transport"],
+    "include_categories": true,
+    "include_grey": true,
+    "custom_sizes": ["200/400", "400/200", "600/200", "900/100"]
+}
