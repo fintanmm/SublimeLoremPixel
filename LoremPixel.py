@@ -27,3 +27,8 @@ class LoremPixel(sublime_plugin.EventListener):
                     urls = [(pixel_url + s, pixel_url + s) for s in sizes]
             return urls
         return
+
+
+class LoremPixelCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+        self.view.insert(edit, 0, "Hello, World!")
